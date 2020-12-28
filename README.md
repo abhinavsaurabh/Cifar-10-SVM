@@ -1,5 +1,6 @@
 # Cifar-10-SVM
 Working on Cifar-10 Dataset and Finding out its best SVM Model.
+
 1-1 HOG - Combine HOG and color histogram (must be implemented from scratch) on a whole ie., (hog + color hist) - feature descriptor(2)
 
 1-1 PCA - Perform PCA using sklearn on the dataset such that 90% of the total variance is retained - feature descriptor(1)
