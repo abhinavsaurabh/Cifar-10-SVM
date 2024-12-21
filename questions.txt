@@ -1,0 +1,13 @@
+Question 1: (60 Points)
+Use the CIFAR-10 dataset for all the experiments. Choose hyper-parameters in a systematical
+manner.
+(1) (a) Perform PCA using sklearn on the dataset such that 90% of the total variance is retained - feature descriptor(1)
+(b) Combine HOG and color histogram (must be implemented from scratch) on a whole ie., (hog + color hist) - feature descriptor(2)
+Now perform the following for both these feature descriptors.
+
+(2) Visualize the 2D t-SNE plot. State your observations.
+
+(3) Use GridSearchCV (cv=5) to find the best parameters (C, kernel, γ in case of gaussian
+kernel) of SVM using the train set. Report the accuracies (train, test) and the run-times on the best parameters obtained. State your observations (if any) on the obtained best parameters.
+
+(4) Develop a new training set by extracting the support vectors from the SVM fitted in (3). Now fit another SVM with the new training set and report the accuracies(train, test). Compare the accuracies from (3) and (4). State your observations. 
